@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page -- minecraft</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav-links {
+            margin-top: 1rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .download-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 800px;
+            width: 90%;
+        }
+
+        .icon {
+            margin-bottom: 1rem;
+        }
+
+        .icon img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 24px;
+        }
+
+        .header-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+
+        .description {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .scroll-notice {
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 1rem 0;
+            font-size: 14px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .preview-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .preview-image-container {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .preview-image {
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 2px solid #eee;
+        }
+
+        .image-description {
+            margin-top: 1rem;
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .features h2 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .features ul {
+            list-style-position: inside;
+            color: #666;
+        }
+
+        .features li {
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+
+        .file-info {
+            margin-top: 1.5rem;
+            font-size: 14px;
+            color: #888;
+            line-height: 1.6;
+        }
+
+        .additional-info {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #fff8e1;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        .additional-info h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 20px;
+        }
+
+        .additional-info p {
+            color: #666;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            margin-top: 1rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Download terraria</h1>
+    </header>
+
+    <main>
+        <div class="download-card">
+            <div class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVNzn3aErkS59Ym_qhqbZYFd8laElFfxviQ&s"></div>
+            <h1>terraria</h1>
+            <p class="description">
+                DIG! FIGHT! EXPLORE! BUILD! Join the community of millions of Terrarians!
+
+                TERRARIA MOBILE REBUILT FROM THE GROUND UP – NEW AND IMPROVED 1.4.4 UPDATE INCLUDING LABOR OF LOVE CONTENT!            </p>
+
+            <div class="scroll-notice">
+                👇 Scroll down to view more details and find the download button at the bottom! 👇
+            </div>
+
+            <div class="preview-images">
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/O-Dr8ayJoCl8vELdlrdzTJqIupxNj-zsJq7-gu19A1nr3y-Zw4BkWhZhCNAjL-RaxQ=w526-h296-rw">
+                    <p class="image-description">
+                        The very world is at your fingertips as you fight for survival, fortune, and glory. Delve deep into cavernous expanses, seek out ever-greater foes to test your mettle in combat, or construct your own city - In the World of Terraria, the choice is yours!                    </p>
+                </div>
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/VAxJd3C0F94AfzNtwtE6SJK7bMgJDIRn8uSdFiGMRDrrmmdJuLKMUMUU5-WuD3eoZWM=w526-h296-rw" alt="User Guide Preview" class="preview-image">
+                    <p class="image-description">
+                        We recommend at least 2GB of RAM and a device from 2014 or newer. We support devices running Android 5.0 with 1GB of RAM and compatible graphics, but these devices may experience reduced performance.
+                    </p>
+                </div>
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/-YZJfDVZ8u8ZCUYlDTBC0ueRYIO4z50VLdSDirr-kXIT6Qwrw7gmeqhpEvdSaCJqV-U=w526-h296-rw">
+                    <p class="image-description">
+                        • MULTIPLAYER – Play with up to 7 friends on Local Wifi or Online via device-device Wifi hosted games or through the Mobile Terraria Dedicated Server for PC (available for free on Terraria.org)                     
+                    </p>
+                </div>
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/0l4UZcSUn8vtcfskPS9hN0Nb4gV14TNsUHLei56QxYax3VhqqzY9QuH5T9U18-SC7Gw=w526-h296-rw">
+                    <p class="image-description">
+                        • TERRARIA REIMAGINED FOR MOBILE – Fully customisable controls and User Interface provide a level of polish and capability not previously possible! 
+                    </p>              
+                </div>
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/hsqG7bRnomjcA15KLDbP8u8IxxrkRzX9ifuYjtpjKS_I_CwsSMbFeNAsjzhAUy6VcK4=w526-h296-rw" alt="Analytics Dashboard Preview" class="preview-image">
+                    <p class="image-description">
+                        • Gamepad support – including fully-remappable buttons - Play with your Bluetooth connected gamepad where supported.                
+                    </p> 
+                </div>
+                <div class="preview-image-container">
+                    <img src="https://play-lh.googleusercontent.com/NpMliVjbQx0qLgZHLk0YHaxdjTaLEzxbCxoAOsGJbzYmsCN7ZFBSBWHDHF4tqCqsx84=w526-h296-rwhttps://play-lh.googleusercontent.com/NpMliVjbQx0qLgZHLk0YHaxdjTaLEzxbCxoAOsGJbzYmsCN7ZFBSBWHDHF4tqCqsx84=w526-h296-rw" alt="Collaboration Tools Preview" class="preview-image">
+                    <p class="image-description">
+                        • Over 400 enemies to combat, defeat, and plunder for loot • Over 20 Biomes and Mini-Biomes to explore, both above and underground – from lush forests to barren deserts to dungeons, the underworld, and even the terrifying Corruption await! • Updated crafting with multiple added item options • Over 20 NPCs to discover, each providing their own benefits and unique style • In-depth building options that are easy to learn but allow for amazing feats of architecture in the hands of a master. • And much, much more!                    </p>                
+                </div>
+            </div>
+
+            <div class="features">
+                <h2>Package Contents:</h2>
+                <ul>
+                    <li>• Slash commands – Tweak how the game plays: you can change the weather, summon mobs, change the time of day, and more • Add-ons – Customize your experience even further with add-ons! If you're more tech-inclined, you can modify your game to create new resource packs</li>
+                </ul>
+            </div>
+
+            <div class="additional-info">
+                <h2>Why Choose Our Premium Package?</h2>
+                <p>
+                    Our Premium Document Package stands out for its comprehensive approach to professional documentation. Whether you're a seasoned professional or just starting your journey, this package provides everything you need to create impressive, effective documents.
+                </p>
+                <p>
+                    Each component has been carefully crafted and reviewed by industry experts to ensure the highest quality and practical utility. Regular updates keep the content fresh and relevant to current industry standards.
+                </p>
+                <p>
+                    With over 10,000 satisfied users worldwide, our package has proven its value across various industries and use cases. The included templates and guides have helped professionals save countless hours while producing superior results.
+                </p>
+            </div>
+
+            <a href="https://www.mediafire.com/file/xyr2x51qfujo5s9/Terraria-v1-4-4-9-5.apk" class="download-btn">Download Now</a>
+            <p class="file-info">
+                File size: 231MB
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Download Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
